@@ -1,0 +1,50 @@
+.intrebariWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+    padding: max(4vh,10px) max(1.2vw,5px);
+}
+
+.child:nth-child(1){
+    font-size: max(1.13vw, 12px);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.child:nth-child(2){
+    display:grid;
+    grid-template-columns:auto auto;
+    justify-items: center;
+    row-gap: max(10vh,30px);
+    column-gap: max(2vw,30px);
+    
+}
+
+.child:nth-child(3){
+    display:flex;
+    justify-content: space-between;
+}
+
+.nrIntrebare{
+    font-family: 'Anton', sans-serif;
+    color: rgb(72, 104, 163);
+    font-size: max(1.2vw, 12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next{
+    border:none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    font-family: 'Anton', sans-serif;
+    color: rgb(72, 104, 163);
+    font-size: max(1vw, 10px);;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+

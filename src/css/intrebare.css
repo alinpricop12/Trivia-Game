@@ -1,0 +1,35 @@
+.intrebareWrapper{
+    background-color: white;
+    box-shadow: rgba(19, 21, 39, 0.4) 0px 2px 4px, rgba(62, 57, 87, 0.3) 0px 7px 13px -3px, rgba(62, 56, 114, 0.2) 0px -3px 0px inset;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intrebare{
+    font-family: 'Anton', sans-serif;
+    color: rgb(72, 104, 163);
+    font-size: max(1.2vw, 12px);
+}
+.intrebariWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+    padding: max(4vh,10px) max(1.2vw,5px);
+}
+
+.index{
+    background-color: rgb(72, 104, 163);
+    color:white;
+    font-family: 'Anton', sans-serif;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: max(1.3vw, 12px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}

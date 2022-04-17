@@ -1,0 +1,85 @@
+.ultimaParte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.results{
+    background-image: url('../svg/Hexagon.svg');
+    background-size: cover;
+    color:white;
+    text-shadow: 3px -1px 11px rgba(30, 37, 37, 0.7);
+    font-family: 'Anton', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 30px 15px;
+    font-size: max(2vw, 13px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    text-align: center;
+
+}
+.scrisGrafic{
+    color:rgb(72, 104, 163);
+    font-family: 'Anton', sans-serif;
+    font-size: max(1.3vw, 13px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.graph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    padding: 0 3vw;
+}
+.pieChart{
+    width: 42%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    padding: 0 3vw;
+}
+.scoreTitle{
+    color:rgb(72, 104, 163);
+    font-family: 'Anton', sans-serif;
+    font-size: max(1.3vw, 13px);
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.nr_raspunsuri{
+    display: flex;
+    align-items: center;
+    background-color: rgb(72, 104, 163);
+    color:white;
+    font-family: 'Anton', sans-serif;
+    padding: 8px 15px;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    text-align: center;
+    margin-left: 5vw;
+}
+
+.playAgain{
+    background-color: rgb(72, 104, 163);
+    color:white;
+    font-family: 'Anton', sans-serif;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: max(1.5vw, 13px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+
+}
