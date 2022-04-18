@@ -1,0 +1,5 @@
+Un trivia game care permite utilizatorului selectarea dificultății și numărul de
+întrebări dorit. Întrebările sunt obținute prin apelarea api-ului "Open Trivia Database"
+si atat intrebarile cat si variantele lor sunt generate aleatoriu. La finalul întrebărilor,
+utilizatorul va primi o statistică a raspunsurilor sale, cu ajutorul librăriei Chart.js. De
+altfel, aplicația are un design responsive.
